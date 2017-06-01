@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  width: 375px;
+  height: 667px;
+}
+
+
+.list-group {
+  margin: 5px;
+}
+
+li:hover {
+  background-color: aqua;
+}
+
+a.btn {
+  border-radius: 50%;
+  margin: 10px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  line-height: 160%;
+  box-shadow: 1px 1px 5px 2px black;
+}
+
+#done {
+ float: right;
+}
+.clear {
+  clear: both;
+}
+
+#delete{
+  margin-left: 20%;
+}
+.jumbotron {
+  margin-top: 10px;
+  background-color: aqua;
+  border: aqua;
+}
+
+#list li {
+  width: 100%;
+}
+
+#list li span.glyphicon {
+      margin-left: 105%;
+}
+/** {
+  border: solid black 1px;
+}*/
